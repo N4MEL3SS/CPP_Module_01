@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.21.1)
 project(Module_1)
 
 set(CMAKE_CXX_STANDARD 98)
@@ -10,4 +10,4 @@ add_executable(Module_1_ex02 ex02/main.cpp)
 add_executable(Module_1_ex03 ex03/Weapon.cpp ex03/Weapon.hpp ex03/HumanA.cpp ex03/HumanA.hpp ex03/HumanB.cpp ex03/HumanB.hpp ex03/main.cpp)
 add_executable(Module_1_ex04 ex04/main.cpp)
 add_executable(Module_1_ex05 ex05/Harl.cpp ex05/Harl.hpp ex05/main.cpp)
-#add_executable(Module_1_ex06)
+add_executable(Module_1_ex06 ex06/Harl.cpp ex06/Harl.hpp ex06/main.cpp)
